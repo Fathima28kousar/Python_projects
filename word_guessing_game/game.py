@@ -5,7 +5,7 @@ name = input("What is your name? ")
 print("Good Luck, " + name + "!")
 
 word_list = ['rainbow', 'computer', 'science', 'programming', 'python', 'mathematics', 'player', 'condition',
-             'reverse', 'water', 'board', 'geeks']
+             'reverse', 'water', 'board', 'geeks',"pineapple","apple","strawberry","box","hello","bird"]
 
 word = random.choice(word_list)
 
@@ -15,6 +15,7 @@ guesses = " "
 
 try:
     turns = int(input("How many turns you want? "))
+    
 except:
     print("You have 10 turns")
     turns =10
