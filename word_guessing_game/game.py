@@ -13,12 +13,12 @@ print("Guess the characters")
 
 guesses = " "
 
-try:
-    turns = int(input("How many turns you want? "))
+# try:
+#     turns = int(input("How many turns you want? "))
     
-except:
-    print("You have 10 turns")
-    turns =10
+# except:
+#     print("You have 10 turns")
+turns =10
 
 while turns > 0:
     failed = 0
